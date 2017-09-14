@@ -1,4 +1,5 @@
 title: Albertino Júnior
 description: Site do repositório de projetos.
-show_downloads: true
+lang: pt-BR
+show_downloads: false
 theme: jekyll-theme-cayman
