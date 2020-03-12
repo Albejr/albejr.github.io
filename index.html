@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href=".//css/style.css">
 
   <title>Albertino Junior</title>
@@ -105,17 +106,18 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   
   <script>
-  $(window).load(function(){
-  $('#wrapper').addClass('loaded');
-})
+    $(document).ready(function(){
+      $('#wrapper').addClass('loaded');
+    });
 
-$('.more-info').click(function(){
-  $("#card").toggleClass('flip');
-  $('#arrow').remove();
-});
-$('#background').click(function(){
-  $('#card').removeClass('flip');
-});
+    $('.more-info').click(function(){
+      $("#card").toggleClass('flip');
+      $('#arrow').remove();
+    });
+    
+    $('#background').click(function(){
+      $('#card').toggleClass('flip');
+    });
   </script>
 </body>
 </html>
