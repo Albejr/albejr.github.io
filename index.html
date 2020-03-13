@@ -13,111 +13,68 @@
 </head>
 
 <body>
- <!-- <div class="background gradient">
-    <ul class="bg-bubbles">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-
-    <h1>Hello, world!</h1>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-4">
-
-        </div>
-        <div class="col-sm-8 page-segment">
-
-        </div>
-      </div>
-    </div>
-  </div>
--->
-  
+  <ul class="bg-bubbles">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul>
   <div id="wrapper">
-  <div id="content">
-    <div id="card">
-      <div id="front">
-        <div id="arrow"><i class="fa fa-arrow-left"></i></div>
-        <div id="top-pic"></div>
-        <div id="avatar"></div>
-        <div id="info-box">
-          <div class="info">
-            <h1>Albertino Júnior</h1>
-            <h2>Analista de Sitemas</h2>
+    <div id="content">
+      <div id="card">
+        <div id="front">
+          <div id="top-pic"></div>
+          <div id="avatar"></div>
+          <div id="info-box">
+            <div class="info">
+              <h1>Albertino Júnior</h1>
+              <h2>Analista de Sitemas</h2>
+            </div>
+          </div>
+          <div id="social-bar">
+            <a href="https://www.linkedin.com/in/albejr" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Albejr" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="#" class="more-info">
+              <i class="fa fa-user"></i>
+            </a>
           </div>
         </div>
-        <div id="social-bar">
-          <a href="https://www.facebook.com/designcouch" target="_blank">
-            <i class="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.twitter.com/designcouch" target="_blank">
-          <i class="fa fa-twitter"></i>
-          </a>
-          <a href="https://www.dribbble.com/designcouch" target="_blank">
-          <i class="fa fa-dribbble"></i>
-          </a>
-          <a href="https://www.codepen.io/designcouch/public">
-          <i class="fa fa-codepen"></i>
-          </a>
-          
-          <a href="javascript:void" class="more-info">
-            <i class="fa fa-user"></i>
-          </a>
+        <div id="back">
+          <div class="back-info">
+            <p>My name is Albe.</p>
+          </div>
+          <div id="social-bar">
+            <a href="https://www.linkedin.com/in/albejr" target="_blank">
+              <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Albejr" target="_blank">
+              <i class="fa fa-github"></i>
+            </a>
+            <a href="#" class="more-info">
+              <i class="fa fa-undo"></i>
+            </a>
+          </div>
         </div>
       </div>
-      <div id="back">
-        <div class="back-info">
-          <p>My name is Albe.</p>
-        </div>
-        <div id="social-bar">
-          <a href="https://www.facebook.com/designcouch" target="_blank">
-            <i class="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.twitter.com/designcouch" target="_blank">
-          <i class="fa fa-twitter"></i>
-          </a>
-          <a href="https://www.dribbble.com/designcouch" target="_blank">
-          <i class="fa fa-dribbble"></i>
-          </a>
-          <a href="https://www.codepen.io/designcouch/public">
-          <i class="fa fa-codepen"></i>
-          </a>
-          <a href="javascript:void" class="more-info">
-            <i class="fa fa-undo"></i>
-          </a>
-        </div>
+      <div id="background">
+        <div id="background-image"></div>
       </div>
-    </div>
-    <div id="background">
-      <div id="background-image"></div>
     </div>
   </div>
-</div>
-  
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-  
-  <script>
-    $(document).ready(function(){
-      $('#wrapper').addClass('loaded');
-    });
-
-    $('.more-info').click(function(){
-      $("#card").toggleClass('flip');
-      $('#arrow').remove();
-    });
-    
-    $('#background').click(function(){
-      $('#card').toggleClass('flip');
-    });
-  </script>
+  <script src="js/custom.js"></script>
 </body>
+
 </html>
