@@ -83,7 +83,7 @@ h2 {
   perspective: 600px;
 }
 
-#card #social-bar a {
+#card .social-bar a {
   display: inline-block;
   color: #000;
   text-decoration: none;
@@ -92,7 +92,7 @@ h2 {
   border-radius: 5px;
 }
 
-#card #social-bar a:hover {
+#card .social-bar a:hover {
   color: #fff;
   transition: 0.1s ease-in-out;
   font-size: 1.5em;
@@ -156,7 +156,7 @@ h2 {
   padding: 50px;
 }
 
-#card #front #social-bar {
+#card #front .social-bar {
   height: 50px;
   width: 100%;
   position: absolute;
@@ -168,9 +168,9 @@ h2 {
 }
 
 /*
-#card #front #social-bar a {}
+#card #front .social-bar a {}
 
-#card #front #social-bar a:hover {}
+#card #front .social-bar a:hover {}
 */
 #card #back {
   transform: rotateY(180deg);
@@ -187,7 +187,7 @@ h2 {
   text-justify: inter-word;
 }
 
-#card #back #social-bar {
+#card #back .social-bar {
   height: 50px;
   width: 100%;
   position: absolute;
@@ -198,11 +198,11 @@ h2 {
   text-align: center;
 }
 
-#card #back #social-bar a {
+#card #back .social-bar a {
   color: #000;
 }
 
-#card #back #social-bar a:hover {
+#card #back .social-bar a:hover {
   color: #f60;
 }
 
